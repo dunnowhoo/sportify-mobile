@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sportify/menu.dart';
+import 'package:sportify/screens/menu.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSwatch(
           primarySwatch: Colors.green,
-        ).copyWith(secondary: Colors.green[400]),
+        ).copyWith(secondary: Colors.green),
         useMaterial3: true,
       ),
       home: MyHomePage(), // Assign MyHomePage to the home property
